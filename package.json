@@ -1,6 +1,6 @@
 {
   "name": "archive man",
-  "author": "ABCxFF
+  "author": "ABCxFF",
   "scripts": {
     "start": "node index"
   },
