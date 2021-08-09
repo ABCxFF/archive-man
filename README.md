@@ -14,7 +14,7 @@ In conf.json, have properties:
 
 **Channel Args:** Either `all` or a list of channel references (`#general` aka `<#channel id>`)
 
-**Option Args:  **
+**Option Args:**  
 `--upload`: Uploads files to discord  
 `--ignore={id}`: Ignore a specific channel by id (for example, `--ignore=128391273881923`)  
 `--no-store`: Do not store files locally  
