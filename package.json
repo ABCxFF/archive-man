@@ -1,6 +1,12 @@
 {
+  "name": "archive man",
+  "author": "ABCxFF
+  "scripts": {
+    "start": "node index"
+  },
   "dependencies": {
     "discord.js": "^13.0.0",
     "node-fetch": "^2.6.1"
-  }
+  },
+  "license": "MIT"
 }
