@@ -6,7 +6,7 @@ Bot that archives discord servers
 In conf.json, have properties:
   1. `token` (bot's token)
   2. `prefix` (command prefix)
-  3. `owner` or `owners` (user id or array of user ids, accordingally)
+  3. `owner` or `owners` (user id or array of user ids, accordingly)
 
 ## In Discord 
 
