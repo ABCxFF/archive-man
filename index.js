@@ -132,11 +132,11 @@ client.once('ready', () => {
                     }))).join("\n"))
                     return `${message.author.tag} <@${message.author.id}> - ${dateFormatter.format(message.createdTimestamp)}${message.editedTimestamp ? " (editted)" : ""}
 ${message.id}: ${message.content.replace(channelRegex, (_, id) => {
-                        const channel = channel.guild.channels.cache.get(id);
+                        const kChannel = channel.guild.channels.cache.get(id);
 
-                        if (!channel) return _;
+                        if (!kChannel) return _;
 
-                        return "#" + channel.name
+                        return "#" + kChannel.name
                     }).replace(mentionRegex, (_, id) => {
                         const member = channel.guild.members.cache.get(id);
 
